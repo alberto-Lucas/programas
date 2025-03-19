@@ -1,0 +1,11 @@
+C:\GitHub\programas\ExemploCard\bin\Debug\ExemploCard.exe.config
+C:\GitHub\programas\ExemploCard\bin\Debug\ExemploCard.exe
+C:\GitHub\programas\ExemploCard\bin\Debug\ExemploCard.pdb
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.csproj.AssemblyReference.cache
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.Form1.resources
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.Properties.Resources.resources
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.usrCard.resources
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.csproj.GenerateResource.cache
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.csproj.CoreCompileInputs.cache
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.exe
+C:\GitHub\programas\ExemploCard\obj\Debug\ExemploCard.pdb
