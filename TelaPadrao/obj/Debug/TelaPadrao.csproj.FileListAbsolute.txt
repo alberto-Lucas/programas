@@ -1,0 +1,11 @@
+C:\GitHub\programas\TelaPadrao\bin\Debug\TelaPadrao.exe.config
+C:\GitHub\programas\TelaPadrao\bin\Debug\TelaPadrao.exe
+C:\GitHub\programas\TelaPadrao\bin\Debug\TelaPadrao.pdb
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.csproj.AssemblyReference.cache
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.Form1.resources
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmGenerico.resources
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.Properties.Resources.resources
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.csproj.GenerateResource.cache
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.csproj.CoreCompileInputs.cache
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.exe
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.pdb
