@@ -210,6 +210,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimizeBox = false;
             this.Name = "frmCadProduto";
             this.Text = "Cadastro de Produtos";
             this.ResumeLayout(false);

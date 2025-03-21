@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGenerico));
             this.pnlTopo = new System.Windows.Forms.Panel();
             this.lblTituloTela = new System.Windows.Forms.Label();
             this.ptbIcon = new System.Windows.Forms.PictureBox();
@@ -88,9 +89,6 @@
             this.ptbMinimaze.Size = new System.Drawing.Size(28, 28);
             this.ptbMinimaze.TabIndex = 14;
             this.ptbMinimaze.TabStop = false;
-            this.ptbMinimaze.Click += new System.EventHandler(this.ptbMinimaze_Click);
-            this.ptbMinimaze.MouseLeave += new System.EventHandler(this.ptbClose_MouseLeave);
-            this.ptbMinimaze.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptbClose_MouseMove);
             // 
             // ptbMaximaze
             // 
@@ -102,9 +100,6 @@
             this.ptbMaximaze.Size = new System.Drawing.Size(28, 28);
             this.ptbMaximaze.TabIndex = 13;
             this.ptbMaximaze.TabStop = false;
-            this.ptbMaximaze.Click += new System.EventHandler(this.ptbMaximaze_Click);
-            this.ptbMaximaze.MouseLeave += new System.EventHandler(this.ptbClose_MouseLeave);
-            this.ptbMaximaze.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptbClose_MouseMove);
             // 
             // ptbClose
             // 
@@ -116,9 +111,6 @@
             this.ptbClose.Size = new System.Drawing.Size(28, 28);
             this.ptbClose.TabIndex = 12;
             this.ptbClose.TabStop = false;
-            this.ptbClose.Click += new System.EventHandler(this.ptbClose_Click);
-            this.ptbClose.MouseLeave += new System.EventHandler(this.ptbClose_MouseLeave);
-            this.ptbClose.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptbClose_MouseMove);
             // 
             // pnlCentral
             // 
@@ -137,6 +129,7 @@
             this.Controls.Add(this.pnlCentral);
             this.Controls.Add(this.pnlTopo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGenerico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmGenerico";

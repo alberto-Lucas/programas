@@ -123,6 +123,16 @@ namespace TelaPadrao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_Maximize_Window_28px_4 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Maximize_Window_28px_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_Minimize_Window_28px {
             get {
                 object obj = ResourceManager.GetObject("icons8_Minimize_Window_28px", resourceCulture);
@@ -143,6 +153,26 @@ namespace TelaPadrao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_Minimize_Window_28px_2 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Minimize_Window_28px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_Minimize_Window_28px1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Minimize_Window_28px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_Restore_Window_28px {
             get {
                 object obj = ResourceManager.GetObject("icons8_Restore_Window_28px", resourceCulture);
@@ -156,6 +186,16 @@ namespace TelaPadrao.Properties {
         internal static System.Drawing.Bitmap icons8_Restore_Window_28px_3 {
             get {
                 object obj = ResourceManager.GetObject("icons8_Restore_Window_28px_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_Restore_Window_28px_4 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Restore_Window_28px_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

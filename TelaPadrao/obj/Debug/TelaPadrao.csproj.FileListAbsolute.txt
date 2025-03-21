@@ -10,3 +10,4 @@ C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.csproj.CoreCompileInputs.cac
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.exe
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.pdb
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmCadProduto.resources
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmImage.resources

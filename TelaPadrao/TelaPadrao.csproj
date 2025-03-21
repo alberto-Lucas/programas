@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormExtend.cs" />
     <Compile Include="frmCadCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +71,12 @@
     <Compile Include="frmGenerico.Designer.cs">
       <DependentUpon>frmGenerico.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImage.Designer.cs">
+      <DependentUpon>frmImage.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTeste.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,7 +85,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UtilForm.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGenerico.resx">
       <DependentUpon>frmGenerico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImage.resx">
+      <DependentUpon>frmImage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -140,6 +149,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_Edit_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Maximize_Window_28px_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minimize_Window_28px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Restore_Window_28px_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minimize_Window_28px_2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

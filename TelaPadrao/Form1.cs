@@ -19,23 +19,22 @@ namespace TelaPadrao
 
         private void padrãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmGenerico frm = new frmGenerico();
-            frm.Show();
+            frmGenerico.FormShow();
         }
 
         private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UtilForm.FormGenericoShow(new frmCadProduto());
+            frmGenerico.FormShow(new frmCadProduto());
         }
 
         private void testeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UtilForm.FormGenericoShow(new frmTeste());
+            frmGenerico.FormShow(new frmTeste());
         }
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UtilForm.FormGenericoShow(new frmCadCliente());
+            frmGenerico.FormShow(new frmCadCliente());
         }
     }
 }

@@ -1,102 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace TelaPadrao
 {
     public partial class frmGenerico : Form
     {
-        Size SizeForm;
-        #region Vincular UtilForm
+        FormExtend formExtend;
+        frmImage frmImage = new frmImage();
 
-        bool IsMaximizado()
+        //Método satico para q a tela seja aberta sem instanciar
+        public static void FormShow(Form pForm = null, bool pIsShowDialog = false)
         {
-            return UtilForm.IsMaximizado(this, SizeForm);
-        }
-
-        void MaximizarTela()
-        {
-            UtilForm.MaximizarForm(this, SizeForm);
-        }
-
-        void VincularEventosUtilForm()
-        {
-            pnlTopo.MouseDown += (sender, e) => UtilForm.MoverFormCentralizar(sender, e, this, SizeForm);
-        }
-        #endregion
-
-        #region Alterar Icon Botao Form
-        private void ptbClose_MouseLeave(object sender, EventArgs e)
-        {
-            AlternarIcon(sender as PictureBox, true);
-        }
-
-        private void ptbClose_MouseMove(object sender, MouseEventArgs e)
-        {
-            AlternarIcon(sender as PictureBox, false);
-        }
-
-        void AlternarIcon(PictureBox ButtonForm, bool IsLeave)
-        {
-            if (ButtonForm.Name == "ptbClose")
-                if (IsLeave)
-                    ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Close_Window_28px;
-                else
-                    ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Close_Window_28px_1;
-
-            if (ButtonForm.Name == "ptbMaximaze")
-                if (IsMaximizado())
-                    if (IsLeave)
-                        ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Restore_Window_28px;
-                    else
-                        ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Restore_Window_28px_3;
-                else
-                    if (IsLeave)
-                        ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Maximize_Window_28px;
-                    else
-                        ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Maximize_Window_28px_1;
+            frmGenerico frm = new frmGenerico(pForm);
             
-
-            if (ButtonForm.Name == "ptbMinimaze")
-                if (IsLeave)
-                    ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Minimize_Window_28px;
-                else
-                    ButtonForm.Image = global::TelaPadrao.Properties.Resources.icons8_Minimize_Window_28px_1;
+            if(pIsShowDialog)
+                frm.ShowDialog();
+            else
+                frm.Show();
         }
-        #endregion
 
-        #region Botoes da Tela
-        private void ptbClose_Click(object sender, EventArgs e)
+        //Construtor
+        public frmGenerico(Form Form = null)
         {
-            this.Close();
-        }
+            InitializeComponent();
 
-        private void ptbMaximaze_Click(object sender, EventArgs e)
-        {
-            MaximizarTela();
-        }
+            if (Form != null)
+                CarregarForm(Form);
 
-        private void ptbMinimaze_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
+            formExtend = new FormExtend(this);
+            VincularEventosFormExtend();
         }
-        #endregion
 
         #region Carregar Form
         void CarregarForm(Form Form)
         {
             this.Size = Form.Size;
             lblTituloTela.Text = Form.Text;
-            ptbMaximaze.Visible = Form.MaximizeBox;
-            ptbMinimaze.Visible = Form.MinimizeBox;
+
+            ptbMaximaze.Enabled = Form.MaximizeBox;
+            ptbMinimaze.Enabled = Form.MinimizeBox;
+
+            if(!ptbMaximaze.Enabled && !ptbMinimaze.Enabled)
+            {
+                ptbMaximaze.Visible = false;
+                ptbMinimaze.Visible = false;
+            }
+
             this.WindowState = Form.WindowState;
+            this.Icon = Form.Icon;
             ptbIcon.Image = Form.Icon.ToBitmap();
 
             Form.TopLevel = false;
@@ -109,15 +59,22 @@ namespace TelaPadrao
         }
         #endregion
 
-        public frmGenerico(Form Form = null)
+        #region Vincular FormExtend
+        void VincularEventosFormExtend()
         {
-            InitializeComponent();
+            formExtend.SetMovForm(pnlTopo);
 
-            if (Form != null)
-                CarregarForm(Form);
+            formExtend.SetFecharForm(ptbClose);
+            formExtend.SetMaximizarForm(ptbMaximaze);
+            formExtend.SetMinimizarForm(ptbMinimaze);
 
-            SizeForm = this.Size;
-            VincularEventosUtilForm();
+            formExtend.SetControleImage(ptbClose, frmImage.picFormCloseFill.Image);
+            formExtend.SetControleImage(ptbMaximaze, frmImage.picFormMaximizeFill.Image, frmImage.picFormMaximizeDisable.Image);
+            formExtend.SetControleImage(ptbMinimaze, frmImage.picFormMinimizeFill.Image, frmImage.picFormMinimizeDisable.Image);
         }
+        #endregion
+
     }
+
+
 }
