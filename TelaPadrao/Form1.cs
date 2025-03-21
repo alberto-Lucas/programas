@@ -22,5 +22,20 @@ namespace TelaPadrao
             frmGenerico frm = new frmGenerico();
             frm.Show();
         }
+
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UtilForm.FormGenericoShow(new frmCadProduto());
+        }
+
+        private void testeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UtilForm.FormGenericoShow(new frmTeste());
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UtilForm.FormGenericoShow(new frmCadCliente());
+        }
     }
 }

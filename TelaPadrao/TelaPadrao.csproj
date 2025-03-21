@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>TelaPadrao</RootNamespace>
     <AssemblyName>TelaPadrao</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,16 +52,38 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCadCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadCliente.Designer.cs">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadProduto.Designer.cs">
+      <DependentUpon>frmCadProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGenerico.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmGenerico.Designer.cs">
       <DependentUpon>frmGenerico.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeste.Designer.cs">
+      <DependentUpon>frmTeste.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilForm.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadProduto.resx">
+      <DependentUpon>frmCadProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGenerico.resx">
       <DependentUpon>frmGenerico.cs</DependentUpon>
@@ -114,6 +137,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_Restore_Window_28px_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Edit_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,3 +9,4 @@ C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.csproj.GenerateResource.cach
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.csproj.CoreCompileInputs.cache
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.exe
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.pdb
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmCadProduto.resources

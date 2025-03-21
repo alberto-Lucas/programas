@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GitHub\\programas\\TelaPadrao\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\utilform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:utilform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmGenerico.Designer.cs",
               "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.Designer.cs",
               "RelativeDocumentMoniker": "frmGenerico.Designer.cs",
               "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.Designer.cs",
               "RelativeToolTip": "frmGenerico.Designer.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAqwIMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAnwDgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T19:06:30.854Z",
+              "WhenOpened": "2025-03-21T01:19:29.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmGenerico.cs",
-              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
-              "RelativeDocumentMoniker": "frmGenerico.cs",
-              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
-              "RelativeToolTip": "frmGenerico.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAjwIQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:33:10.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmGenerico.cs [Design]",
               "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
               "RelativeDocumentMoniker": "frmGenerico.cs",
               "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs [Design]",
               "RelativeToolTip": "frmGenerico.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:16:52.588Z",
+              "WhenOpened": "2025-03-21T00:49:57.098Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmGenerico.cs",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
+              "RelativeDocumentMoniker": "frmGenerico.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
+              "RelativeToolTip": "frmGenerico.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwHcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T00:50:01.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UtilForm.cs",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\UtilForm.cs",
+              "RelativeDocumentMoniker": "UtilForm.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\UtilForm.cs",
+              "RelativeToolTip": "UtilForm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwEwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T00:44:54.364Z",
+              "EditorCaption": ""
             }
           ]
         }

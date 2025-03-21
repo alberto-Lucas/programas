@@ -30,11 +30,11 @@
         {
             this.pnlTopo = new System.Windows.Forms.Panel();
             this.lblTituloTela = new System.Windows.Forms.Label();
-            this.pnlCentral = new System.Windows.Forms.Panel();
             this.ptbIcon = new System.Windows.Forms.PictureBox();
             this.ptbMinimaze = new System.Windows.Forms.PictureBox();
             this.ptbMaximaze = new System.Windows.Forms.PictureBox();
             this.ptbClose = new System.Windows.Forms.PictureBox();
+            this.pnlCentral = new System.Windows.Forms.Panel();
             this.pnlTopo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMinimaze)).BeginInit();
@@ -55,7 +55,6 @@
             this.pnlTopo.Name = "pnlTopo";
             this.pnlTopo.Size = new System.Drawing.Size(553, 35);
             this.pnlTopo.TabIndex = 1;
-            this.pnlTopo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTopo_MouseDown);
             // 
             // lblTituloTela
             // 
@@ -67,14 +66,6 @@
             this.lblTituloTela.Size = new System.Drawing.Size(135, 25);
             this.lblTituloTela.TabIndex = 16;
             this.lblTituloTela.Text = "Tela Genérica";
-            // 
-            // pnlCentral
-            // 
-            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCentral.Location = new System.Drawing.Point(0, 35);
-            this.pnlCentral.Name = "pnlCentral";
-            this.pnlCentral.Size = new System.Drawing.Size(553, 313);
-            this.pnlCentral.TabIndex = 2;
             // 
             // ptbIcon
             // 
@@ -128,6 +119,15 @@
             this.ptbClose.Click += new System.EventHandler(this.ptbClose_Click);
             this.ptbClose.MouseLeave += new System.EventHandler(this.ptbClose_MouseLeave);
             this.ptbClose.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptbClose_MouseMove);
+            // 
+            // pnlCentral
+            // 
+            this.pnlCentral.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCentral.Location = new System.Drawing.Point(0, 35);
+            this.pnlCentral.Name = "pnlCentral";
+            this.pnlCentral.Size = new System.Drawing.Size(553, 313);
+            this.pnlCentral.TabIndex = 2;
             // 
             // frmGenerico
             // 

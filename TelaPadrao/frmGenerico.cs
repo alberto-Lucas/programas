@@ -13,63 +13,23 @@ namespace TelaPadrao
 {
     public partial class frmGenerico : Form
     {
-        #region Perfumaria
-        #region Mover Tela
-        //-----------------------------------------------------------------------------------------------------
-        //Mover a tela
-        public const int WM_NCLBUTTONDOWN = 0xA1;
-        public const int HT_CAPTION = 0x2;
-        [System.Runtime.InteropServices.DllImportAttribute("user32.dll")]
-        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
-        [System.Runtime.InteropServices.DllImportAttribute("user32.dll")]
-        public static extern bool ReleaseCapture();
-
-        private void pnlTopo_MouseDown(object sender, MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Left)
-            {
-                if (IsMaximizado())
-                    CentralizarTela(); //Volta tela ao tamanho original ao mover o form
-                ReleaseCapture();
-                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
-            }
-        }
-        #endregion
-
-        #region Maximizar tela sem sobrepor barra de tarefas
-        //-----------------------------------------------------------------------------------------------------
-        //Maximizar tela sem sobrepor barra de tarefas
-
         Size SizeForm;
+        #region Vincular UtilForm
 
         bool IsMaximizado()
         {
-            return this.Size != SizeForm;
+            return UtilForm.IsMaximizado(this, SizeForm);
         }
-        void CentralizarTela()
-        {
-            Rectangle workArea = Screen.PrimaryScreen.WorkingArea;
 
-            this.Size = SizeForm;
-            // Calcula a posição central baseada na área de trabalho
-            int posX = workArea.X + (workArea.Width - this.Width) / 2;
-            int posY = workArea.Y + (workArea.Height - this.Height) / 2;
-
-            this.Location = new Point(posX, posY); // Aplica a posição centralizada
-        }
         void MaximizarTela()
         {
-            Rectangle workArea = Screen.PrimaryScreen.WorkingArea; // Obtém a área útil da tela (sem a barra de tarefas)
-
-            if (IsMaximizado())
-                CentralizarTela();
-            else
-            {
-                this.Size = new Size(workArea.Width, workArea.Height); // Define o tamanho da janela para ocupar apenas essa área
-                this.Location = new Point(workArea.X, workArea.Y); // Ajusta a posição da janela para alinhar com a área útil
-            }
+            UtilForm.MaximizarForm(this, SizeForm);
         }
-        //-----------------------------------------------------------------------------------------------------
+
+        void VincularEventosUtilForm()
+        {
+            pnlTopo.MouseDown += (sender, e) => UtilForm.MoverFormCentralizar(sender, e, this, SizeForm);
+        }
         #endregion
 
         #region Alterar Icon Botao Form
@@ -112,8 +72,6 @@ namespace TelaPadrao
         }
         #endregion
 
-        #endregion
-
         #region Botoes da Tela
         private void ptbClose_Click(object sender, EventArgs e)
         {
@@ -131,12 +89,35 @@ namespace TelaPadrao
         }
         #endregion
 
+        #region Carregar Form
+        void CarregarForm(Form Form)
+        {
+            this.Size = Form.Size;
+            lblTituloTela.Text = Form.Text;
+            ptbMaximaze.Visible = Form.MaximizeBox;
+            ptbMinimaze.Visible = Form.MinimizeBox;
+            this.WindowState = Form.WindowState;
+            ptbIcon.Image = Form.Icon.ToBitmap();
 
-        public frmGenerico()
+            Form.TopLevel = false;
+            Form.FormBorderStyle = FormBorderStyle.None;
+            Form.Dock = DockStyle.Fill;
+
+            pnlCentral.Controls.Clear();
+            pnlCentral.Controls.Add(Form);
+            Form.Show();
+        }
+        #endregion
+
+        public frmGenerico(Form Form = null)
         {
             InitializeComponent();
 
+            if (Form != null)
+                CarregarForm(Form);
+
             SizeForm = this.Size;
+            VincularEventosUtilForm();
         }
     }
 }
