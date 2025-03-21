@@ -128,9 +128,9 @@ namespace TelaPadrao
             Image GetImage() => pPictureBox.Enabled ? imgFixa : pImgDesativada ?? imgFixa; //Funcao Local
             pPictureBox.Image = GetImage(); //Nescessario quando o campo ja inicia desativado
 
-            pPictureBox.MouseLeave += (s, e) => pPictureBox.Image = GetImage();
-            pPictureBox.MouseMove += (s, e) => pPictureBox.Image = pPictureBox.Enabled ? pImgTemporaria : GetImage();
-            pPictureBox.EnabledChanged += (s, e) => pPictureBox.Image = GetImage();
+            pPictureBox.MouseLeave      += (s, e) => pPictureBox.Image = GetImage();
+            pPictureBox.MouseMove       += (s, e) => pPictureBox.Image = pPictureBox.Enabled ? pImgTemporaria : GetImage();
+            pPictureBox.EnabledChanged  += (s, e) => pPictureBox.Image = GetImage();
         }
         #endregion
 
