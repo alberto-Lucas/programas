@@ -36,13 +36,13 @@
             this.ptbMinimaze = new System.Windows.Forms.PictureBox();
             this.ptbMaximaze = new System.Windows.Forms.PictureBox();
             this.ptbClose = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlBackground = new System.Windows.Forms.Panel();
             this.pnlTopo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMinimaze)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMaximaze)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbClose)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.pnlBackground.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTopo
@@ -122,23 +122,23 @@
             this.ptbClose.TabIndex = 12;
             this.ptbClose.TabStop = false;
             // 
-            // panel1
+            // pnlBackground
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.pnlCentral);
-            this.panel1.Controls.Add(this.pnlTopo);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(553, 348);
-            this.panel1.TabIndex = 3;
+            this.pnlBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlBackground.Controls.Add(this.pnlCentral);
+            this.pnlBackground.Controls.Add(this.pnlTopo);
+            this.pnlBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
+            this.pnlBackground.Name = "pnlBackground";
+            this.pnlBackground.Size = new System.Drawing.Size(553, 348);
+            this.pnlBackground.TabIndex = 3;
             // 
             // frmGenerico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(553, 348);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBackground);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGenerico";
@@ -150,7 +150,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbMinimaze)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMaximaze)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbClose)).EndInit();
-            this.panel1.ResumeLayout(false);
+            this.pnlBackground.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -164,6 +164,6 @@
         private System.Windows.Forms.PictureBox ptbMaximaze;
         private System.Windows.Forms.PictureBox ptbClose;
         private System.Windows.Forms.Panel pnlCentral;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlBackground;
     }
 }
