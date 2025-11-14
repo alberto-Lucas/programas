@@ -37,8 +37,8 @@
             this.padrãoCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -98,15 +98,16 @@
             // padrãoToolStripMenuItem
             // 
             this.padrãoToolStripMenuItem.Name = "padrãoToolStripMenuItem";
-            this.padrãoToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.padrãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.padrãoToolStripMenuItem.Text = "Padrão";
             this.padrãoToolStripMenuItem.Click += new System.EventHandler(this.padrãoToolStripMenuItem_Click);
             // 
             // padrãoCadastroToolStripMenuItem
             // 
             this.padrãoCadastroToolStripMenuItem.Name = "padrãoCadastroToolStripMenuItem";
-            this.padrãoCadastroToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.padrãoCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.padrãoCadastroToolStripMenuItem.Text = "Padrão Cadastro";
+            this.padrãoCadastroToolStripMenuItem.Click += new System.EventHandler(this.padrãoCadastroToolStripMenuItem_Click);
             // 
             // testeToolStripMenuItem
             // 
@@ -126,16 +127,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
@@ -145,6 +136,16 @@
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(6, 19);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 

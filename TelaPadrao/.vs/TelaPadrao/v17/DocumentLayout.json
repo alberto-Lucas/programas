@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\GitHub\\programas\\TelaPadrao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|C:\\GitHub\\programas\\TelaPadrao\\frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|C:\\GitHub\\programas\\TelaPadrao\\frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +15,32 @@
       "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:formextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|C:\\GitHub\\programas\\TelaPadrao\\frmcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|C:\\GitHub\\programas\\TelaPadrao\\frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmgenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\frmteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:frmteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|c:\\github\\programas\\telapadrao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8394B21E-A41A-458F-A23C-E7FECA2D1D58}|TelaPadrao.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,49 +50,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "frmImage.cs",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmImage.cs",
+              "RelativeDocumentMoniker": "frmImage.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmImage.cs",
+              "RelativeToolTip": "frmImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T00:06:08.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmTeste.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmTeste.cs",
+              "RelativeDocumentMoniker": "frmTeste.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmTeste.cs [Design]",
+              "RelativeToolTip": "frmTeste.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T00:03:39.473Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T00:00:47.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmImage.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmImage.cs",
+              "RelativeDocumentMoniker": "frmImage.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmImage.cs [Design]",
+              "RelativeToolTip": "frmImage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:59:26.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmCadCliente.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmCadCliente.cs",
+              "RelativeDocumentMoniker": "frmCadCliente.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmCadCliente.cs [Design]",
+              "RelativeToolTip": "frmCadCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:59:19.872Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:59:11.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormExtend.cs",
               "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\FormExtend.cs",
               "RelativeDocumentMoniker": "FormExtend.cs",
               "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\FormExtend.cs",
               "RelativeToolTip": "FormExtend.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwHsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T14:58:54.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmGenerico.cs",
               "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
               "RelativeDocumentMoniker": "frmGenerico.cs",
-              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
-              "RelativeToolTip": "frmGenerico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs*",
+              "RelativeToolTip": "frmGenerico.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T14:50:51.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmGenerico.cs [Design]",
               "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs",
               "RelativeDocumentMoniker": "frmGenerico.cs",
-              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs [Design]",
-              "RelativeToolTip": "frmGenerico.cs [Design]",
+              "ToolTip": "C:\\GitHub\\programas\\TelaPadrao\\frmGenerico.cs [Design]*",
+              "RelativeToolTip": "frmGenerico.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T14:50:49.554Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "frmCadProduto.cs [Design]",
               "DocumentMoniker": "C:\\GitHub\\programas\\TelaPadrao\\frmCadProduto.cs",
               "RelativeDocumentMoniker": "frmCadProduto.cs",

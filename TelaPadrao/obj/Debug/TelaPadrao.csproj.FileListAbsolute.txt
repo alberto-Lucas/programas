@@ -11,3 +11,5 @@ C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.exe
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.pdb
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmCadProduto.resources
 C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmImage.resources
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.exe.config
+C:\GitHub\programas\TelaPadrao\obj\Debug\TelaPadrao.frmCadCliente.resources

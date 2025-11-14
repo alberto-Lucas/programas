@@ -31,16 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGenerico));
             this.pnlTopo = new System.Windows.Forms.Panel();
             this.lblTituloTela = new System.Windows.Forms.Label();
+            this.pnlCentral = new System.Windows.Forms.Panel();
             this.ptbIcon = new System.Windows.Forms.PictureBox();
             this.ptbMinimaze = new System.Windows.Forms.PictureBox();
             this.ptbMaximaze = new System.Windows.Forms.PictureBox();
             this.ptbClose = new System.Windows.Forms.PictureBox();
-            this.pnlCentral = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlTopo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMinimaze)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMaximaze)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbClose)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTopo
@@ -54,7 +56,7 @@
             this.pnlTopo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopo.Location = new System.Drawing.Point(0, 0);
             this.pnlTopo.Name = "pnlTopo";
-            this.pnlTopo.Size = new System.Drawing.Size(553, 35);
+            this.pnlTopo.Size = new System.Drawing.Size(551, 35);
             this.pnlTopo.TabIndex = 1;
             // 
             // lblTituloTela
@@ -67,6 +69,14 @@
             this.lblTituloTela.Size = new System.Drawing.Size(135, 25);
             this.lblTituloTela.TabIndex = 16;
             this.lblTituloTela.Text = "Tela Genérica";
+            // 
+            // pnlCentral
+            // 
+            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCentral.Location = new System.Drawing.Point(0, 35);
+            this.pnlCentral.Name = "pnlCentral";
+            this.pnlCentral.Size = new System.Drawing.Size(551, 311);
+            this.pnlCentral.TabIndex = 2;
             // 
             // ptbIcon
             // 
@@ -84,7 +94,7 @@
             this.ptbMinimaze.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ptbMinimaze.BackColor = System.Drawing.Color.Transparent;
             this.ptbMinimaze.Image = global::TelaPadrao.Properties.Resources.icons8_Minimize_Window_28px;
-            this.ptbMinimaze.Location = new System.Drawing.Point(463, 3);
+            this.ptbMinimaze.Location = new System.Drawing.Point(461, 3);
             this.ptbMinimaze.Name = "ptbMinimaze";
             this.ptbMinimaze.Size = new System.Drawing.Size(28, 28);
             this.ptbMinimaze.TabIndex = 14;
@@ -95,7 +105,7 @@
             this.ptbMaximaze.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ptbMaximaze.BackColor = System.Drawing.Color.Transparent;
             this.ptbMaximaze.Image = global::TelaPadrao.Properties.Resources.icons8_Maximize_Window_28px;
-            this.ptbMaximaze.Location = new System.Drawing.Point(492, 3);
+            this.ptbMaximaze.Location = new System.Drawing.Point(490, 3);
             this.ptbMaximaze.Name = "ptbMaximaze";
             this.ptbMaximaze.Size = new System.Drawing.Size(28, 28);
             this.ptbMaximaze.TabIndex = 13;
@@ -106,28 +116,29 @@
             this.ptbClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ptbClose.BackColor = System.Drawing.Color.Transparent;
             this.ptbClose.Image = global::TelaPadrao.Properties.Resources.icons8_Close_Window_28px;
-            this.ptbClose.Location = new System.Drawing.Point(521, 3);
+            this.ptbClose.Location = new System.Drawing.Point(519, 3);
             this.ptbClose.Name = "ptbClose";
             this.ptbClose.Size = new System.Drawing.Size(28, 28);
             this.ptbClose.TabIndex = 12;
             this.ptbClose.TabStop = false;
             // 
-            // pnlCentral
+            // panel1
             // 
-            this.pnlCentral.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCentral.Location = new System.Drawing.Point(0, 35);
-            this.pnlCentral.Name = "pnlCentral";
-            this.pnlCentral.Size = new System.Drawing.Size(553, 313);
-            this.pnlCentral.TabIndex = 2;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.pnlCentral);
+            this.panel1.Controls.Add(this.pnlTopo);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(553, 348);
+            this.panel1.TabIndex = 3;
             // 
             // frmGenerico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(553, 348);
-            this.Controls.Add(this.pnlCentral);
-            this.Controls.Add(this.pnlTopo);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGenerico";
@@ -139,6 +150,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbMinimaze)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbMaximaze)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbClose)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -152,5 +164,6 @@
         private System.Windows.Forms.PictureBox ptbMaximaze;
         private System.Windows.Forms.PictureBox ptbClose;
         private System.Windows.Forms.Panel pnlCentral;
+        private System.Windows.Forms.Panel panel1;
     }
 }

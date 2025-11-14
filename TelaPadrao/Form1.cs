@@ -36,5 +36,11 @@ namespace TelaPadrao
         {
             frmGenerico.FormShow(new frmCadCliente());
         }
+
+        private void padrãoCadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadProduto frm = new frmCadProduto();
+            frm.Show();
+        }
     }
 }
